@@ -1,28 +1,29 @@
 package com.lgdx.RobotEducationBackend.domain;
 
+import lombok.Data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
+
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "user")
-public class User {
-
+@Document(collection = "counsel")
+public class Counsel {
     @Id
-    private String userId;
-
-
-//    private List<String> loanIds = new ArrayList<>();
+    private String counselId;
+    private Date counselDate;
+    private String customerId;
+    private String counselorId;
+    private Integer level;
+    private String reason;
+    private String education;
 
 }
