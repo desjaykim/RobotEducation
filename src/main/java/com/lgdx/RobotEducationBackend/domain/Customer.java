@@ -17,6 +17,10 @@ public class Customer {
 
     @Id
     private String customerId;
+    private String customerPw;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
 
 
 }
