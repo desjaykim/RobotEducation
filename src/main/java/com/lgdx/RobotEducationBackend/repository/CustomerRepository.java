@@ -1,16 +1,14 @@
 package com.lgdx.RobotEducationBackend.repository;
 
-import com.lgdx.RobotEducationBackend.domain.User;
+import com.lgdx.RobotEducationBackend.domain.Customer;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
 
-import java.util.List;
 import java.util.Optional;
 
-public interface UserRepository extends MongoRepository<User, String> {
+public interface CustomerRepository extends MongoRepository<Customer, String> {
 
     // READ
-    Optional<User> findByUserId(String userId);
+    Optional<Customer> findByCustomerId(String customerId);
 //    List<User> findByMemberNameContaining(String memberName);
 //    List<User> findByMemberWarning(String memberWarning);
 

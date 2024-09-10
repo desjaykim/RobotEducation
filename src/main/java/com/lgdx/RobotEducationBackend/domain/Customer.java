@@ -8,21 +8,15 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "user")
-public class User {
+@Document(collection = "customer")
+public class Customer {
 
     @Id
-    private String userId;
+    private String customerId;
 
-
-//    private List<String> loanIds = new ArrayList<>();
 
 }
