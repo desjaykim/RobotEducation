@@ -1,29 +1,23 @@
 package com.lgdx.RobotEducationBackend.domain;
 
-import lombok.Data;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.Date;
 
+import java.util.List;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "counsel")
-public class Counsel {
+@Document(collection = "counsel_info")
+public class CounselInfo {
     @Id
     private String counselId;
-    private Date counselDate;
-    private String customerId;
-    private String counselorId;
-    private Integer level;
-    private String reason;
-    private String education;
-
+    private List<String> contents;
+    private List<String> keyword;
 }

@@ -1,10 +1,9 @@
 package com.lgdx.RobotEducationBackend.dto;
-import io.swagger.v3.oas.annotations.media.Schema;
-import com.lgdx.RobotEducationBackend.domain.Counsel;
 
-import java.util.ArrayList;
+import com.lgdx.RobotEducationBackend.domain.Counsel;
+import io.swagger.v3.oas.annotations.media.Schema;
+
 import java.util.Date;
-import java.util.List;
 
 public record CounselDTO(
         @Schema(example = "상담1")
@@ -21,10 +20,16 @@ public record CounselDTO(
         String reason,
         @Schema(example = "저소음모드")
         String education
-
 ) {
 
-    public static CounselDTO of(String counselId, Date counselDate, String customerId, String counselorId, Integer level, String reason, String education) {
+    public static CounselDTO of(
+            String counselId,
+            Date counselDate,
+            String customerId,
+            String counselorId,
+            Integer level,
+            String reason,
+            String education) {
         return new CounselDTO(counselId, counselDate, customerId, counselorId, level, reason, education);
     }
 
@@ -39,6 +44,7 @@ public record CounselDTO(
                 counsel.getEducation()
         );
     }
+
     public Counsel toEntity() {
         return Counsel.builder()
                 .counselId(counselId)
