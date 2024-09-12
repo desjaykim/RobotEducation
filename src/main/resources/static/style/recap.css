@@ -1,3 +1,7 @@
+body{
+    font-family: "Nanum Gothic", sans-serif;
+}
+
 .container {
     display:flex;
     justify-content: space-between;
@@ -37,8 +41,8 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
-    display:flex; 
-    justify-content: center; 
+    display:flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -48,18 +52,12 @@
     border-radius: 14px;
     box-sizing: border-box;
     padding: 5px;
-    display:flex; 
-    justify-content: left; 
+    display:flex;
+    justify-content: left;
     align-items: center;
 
 }
-.border-box {
-    margin:11px;
-    width: 303px;
-    height: 674px;
-    border-radius: 16px;
-    border: 9px #23778E solid;
-}
+
 .product-name {
     background: white;
     border-radius: 11px;
@@ -78,9 +76,17 @@
 
 
 .notice-block{
-    color:white;
+    background-color:white;
     width: 340px;
     height: 400px;
+
+}
+
+
+.feedback-block{
+    background-color:white;
+    width: 320px;
+    border-radius: 15px;
 
 }
 
@@ -89,7 +95,9 @@
     color: white;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
-    font-size: 15pt
+    font-size: 15pt;
+    text-align:center;
+    line-height: 1.5;
 }
 
 .text-notice {
@@ -131,22 +139,23 @@
 }
 
 .top {
-    width: 90%;
-    height: 10%;
-    position: relative;
-    padding: 5px;
+    width: 360px;
+    height: 50px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom:20px;
     box-sizing: border-box;
     display:flex;
     justify-content: left;
     align-items: center;
-}    
+}
 
 .main-text{
-   text-align: center;
-   color: #111111;
-   font-size: 18pt;
-   font-family: "Nanum Gothic", sans-serif;;
-   font-weight: 400;
+    text-align: center;
+    color: #111111;
+    font-size: 18pt;
+    font-family: "Nanum Gothic", sans-serif;;
+    font-weight: 400;
 }
 
 .header {
@@ -312,4 +321,11 @@
     color: #111111;
     font-size: 16pt;
     font-weight: 700;
+}
+
+.text-small {
+    text-align: center;
+    color : #ADACA8;
+    font-size:11pt;
+    line-height: 1.5;
 }

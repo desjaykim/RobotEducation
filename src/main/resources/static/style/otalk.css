@@ -37,8 +37,8 @@
     box-sizing: border-box;
     padding: 5px;
     margin: 5px;
-    display:flex; 
-    justify-content: center; 
+    display:flex;
+    justify-content: center;
     align-items: center;
 
 }
@@ -48,8 +48,8 @@
     border-radius: 14px;
     box-sizing: border-box;
     padding: 5px;
-    display:flex; 
-    justify-content: left; 
+    display:flex;
+    justify-content: left;
     align-items: center;
 
 }
@@ -61,7 +61,7 @@
     padding: 2px;
     display:flex;
     justify-content:
-    center;
+            center;
     align-items: center;
 
 }
@@ -126,14 +126,14 @@
     display:flex;
     justify-content: left;
     align-items: center;
-}    
+}
 
 .main-text{
-   text-align: center;
-   color: #111111;
-   font-size: 18pt;
-   font-family: "Nanum Gothic", sans-serif;;
-   font-weight: 400;
+    text-align: center;
+    color: #111111;
+    font-size: 18pt;
+    font-family: "Nanum Gothic", sans-serif;;
+    font-weight: 400;
 }
 
 

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>수업리뷰 5페이지</title>
+  <link rel="stylesheet" href="/style/recap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* 기본 마이크 이미지 크기 및 스타일 설정 */
+    #microphone {
+      width: 60px;
+      height: 60px;
+    }
+
+    /* 마우스 오버 시 마이크 이미지를 변경 */
+    #microphone:hover {
+      content: url("/images/mic_black.png");
+      width: 60px;  /* 크기를 유지 */
+      height: 60px; /* 이미지 비율을 유지 */
+    }
+    /* 별 스타일 */
+    .star {
+      font-size: 50px;
+      color: #ADACA8; /* 기본 회색 별 */
+      cursor: pointer;
+      transition: color 0.2s ease-in-out;
+    }
+
+    /* 마우스를 올리면 노란색 */
+    .star:hover, .star.hovered {
+      color: #FFD700; /* 노란색 별 */
+    }
+
+    /* 클릭한 별을 고정된 노란색으로 */
+    .star.selected {
+      color: #FFD700; /* 노란색 */
+    }
+  </style>
+</head>
+<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+<div class="top">
+  <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+  <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
+</div>
+
+<div class="container" style="flex-direction: column; width:340px">
+  <div class="text-title" style="margin-bottom:25px; font-size:20pt;">의견 남기기</div>
+  <div class="container feedback-block" style="flex-direction:column; margin-bottom:10px;">
+    <div class="container feedback-block" style="flex-direction:column; margin-bottom:20px;">
+      <p class="text-instruction">상담은 어떠셨나요?<br/><span style="color:#D04A4A">별점</span>을 남겨주세요.</p>
+      <div class="container" style="width: 250px;" id="star-container">
+        <!-- 별 5개 추가 -->
+        <span class="star" data-value="1">&#9733;</span>
+        <span class="star" data-value="2">&#9733;</span>
+        <span class="star" data-value="3">&#9733;</span>
+        <span class="star" data-value="4">&#9733;</span>
+        <span class="star" data-value="5">&#9733;</span>
+      </div>
+    </div>
+    <div class="container feedback-block" style="flex-direction:column; margin-bottom:15px;">
+      <p class="text-instruction"> 녹음 아이콘을 누른 후 <br> 고객님의 소중한 의견을 <br><span style="color:#D04A4A">목소리</span>로 남겨주세요. </p>
+      <div class="container" style="flex-direction: column;">
+        <img id="microphone" src="/images/microphone.svg" alt="마이크">
+        <p class="text-small">녹음된 음성은 LG 오똑이<br/>서비스 개선을 위해서만 사용됩니다.</p>
+      </div>
+    </div>
+  </div>
+  <div id='pass-button' class="main-button-horizon text-button" style="background-color: #23778E;">
+    넘어가기
+  </div>
+</div>
+
+<script>
+  // 별점 기능
+  const stars = document.querySelectorAll('.star');
+  let selectedRating = 0;
+
+  stars.forEach((star, index) => {
+    // 마우스를 올리면 해당 별까지 노란색으로 표시
+    star.addEventListener('mouseover', function() {
+      stars.forEach((s, i) => {
+        if (i <= index) {
+          s.classList.add('hovered');
+        } else {
+          s.classList.remove('hovered');
+        }
+      });
+    });
+
+    // 마우스를 별에서 떼면 노란색 제거
+    star.addEventListener('mouseout', function() {
+      stars.forEach((s, i) => {
+        s.classList.remove('hovered');
+      });
+    });
+
+    // 별 클릭 시 고정된 별로 설정
+    star.addEventListener('click', function() {
+      selectedRating = index + 1; // 별점 값 저장
+      stars.forEach((s, i) => {
+        if (i < selectedRating) {
+          s.classList.add('selected');
+        } else {
+          s.classList.remove('selected');
+        }
+      });
+    });
+  });
+
+  // 피드백완료
+  document.getElementById("pass-button").addEventListener("click", function() {
+    window.location.href = "/counselreview02";
+  });
+  // 뒤로가기
+  document.getElementById("back-button").addEventListener("click", function() {
+    window.location.href = "/counsel07";  // otalk_main.html로 이동
+  });
+</script>
+
+</body>
+</html>

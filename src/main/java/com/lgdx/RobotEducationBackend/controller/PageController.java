@@ -77,6 +77,22 @@ public class PageController {
     public String counselPagelearn03() {
         return "recap03";
     }
+    @GetMapping("/recap04")
+    public String counselPagelearn04() {
+        return "recap04";
+    }
+    @GetMapping("/recap05")
+    public String counselPagelearn05() {
+        return "recap05";
+    }
+    @GetMapping("/counselreview01")
+    public String counselPagelearn06() {
+        return "counselreview01";
+    }
+    @GetMapping("/counselreview02")
+    public String counselPagelearn07() {
+        return "counselreview02";
+    }
 }
 
 

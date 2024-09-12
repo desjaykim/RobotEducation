@@ -21,21 +21,20 @@
     <div style="width: 253px; color: black; line-height: 1.2; font-size: 12pt; font-weight: 600; margin-top:12px;">
         앱에서 청소 금지 영역을 설정하면 리모컨이나 로봇청소기에서 직접 청소를 시작해도 설정한 영역은 청소하지 않아요.
     </div>
-    <div style="background-color: white; width: 50px; text-align: center; align-content: center; color: #23778E; font-size: 14pt; font-weight: 600; border-radius: 20px; margin-bottom : 4px;">
+    <div id="confirm" style="background-color: white; width: 50px; text-align: center; align-content: center; color: #23778E; font-size: 14pt; font-weight: 600; border-radius: 20px; margin-bottom : 4px;">
         확인
     </div>
 </div>
 <script>
-    // 학습종료
-    document.getElementById("check-btn").addEventListener("click", function() {
-        window.location.href = "/";
-    });
-
     // 뒤로가기
     document.getElementById("back-button").addEventListener("click", function() {
         window.location.href = "/counsel05";
     });
+
+    // 피드백
+    document.getElementById("confirm").addEventListener("click", function() {
+        window.location.href = "/counselreview01";
+    });
 </script>
 </body>
 </html>
- 

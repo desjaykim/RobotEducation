@@ -12,7 +12,7 @@
     display:flex;
     justify-content:space-between;
     align-items: center;
-} 
+}
 
 .text-top {
     font-size: 18pt;
@@ -38,7 +38,7 @@
     font-size: 13pt;
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
-    
+
 }
 
 .text-top-card-small {
@@ -63,9 +63,9 @@
 }
 
 .text-title {
-    color: black; 
-    font-size: 18pt; 
-    font-family: "Nanum Gothic", sans-serif; 
+    color: black;
+    font-size: 18pt;
+    font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
     padding: 10px 20px 10px 20px;
 }
@@ -94,7 +94,7 @@
     margin :4px;
 }
 
-.middle-card-img{ 
+.middle-card-img{
     margin-right: 8px;
 }
 
@@ -116,7 +116,7 @@
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
     margin-left:15px;
-    
+
 }
 
 .text-status {
@@ -138,8 +138,8 @@
 }
 
 .product-img{
-    display:flex; 
-    align-items: bottom; 
-    height: 40px; 
+    display:flex;
+    align-items: bottom;
+    height: 40px;
     padding: 5px 0px 3px 20px
 }

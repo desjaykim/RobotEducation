@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>복습화면 5페이지</title>
+  <link rel="stylesheet" href="/style/recap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+<img src="/images/confetti.gif" alt="움직이는 컨페티" style="width:300px; left:25px; position:absolute;">
+<div class="top">
+  <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+  <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
+</div>
+
+
+<div class="container text-title" style="width:340px; flex-direction: column;">
+  <img src="/images/confetti.png" alt="컨페티" style="width:200px;">
+  <div style="margin:20px; font-size:18pt;">상담이 완료되었습니다.</div>
+
+  <div class="container feedback-block" style="height:200px; flex-direction:column; margin-bottom:10px;">
+    <p class="text-notice" style="color:black; text-align: center; font-size:16pt; margin-top:50px;"><span style="font-weight: 800; color:#23778E">김숙희</span>님 잘하셨어요!</p>
+    <p class="text-notice" style="color:black; text-align: center; margin-bottom:50px"> 당신의 자부심 오똑이였습니다. <br>언제든지 다시 찾아주세요.</p>
+  </div>
+
+  <div class="container">
+    <div id="counsel-box" class="main-button text-button" style="background: #D04A4A;">
+      복습하기
+    </div>
+    <div id="recap" class="main-button text-button" style="background: #23778E">
+      THINQ 홈 화면 <br>돌아가기
+    </div>
+  </div>
+</div>
+
+<script>
+  // 복습하기
+  document.getElementById("counsel-box").addEventListener("click", function() {
+    window.location.href = "/recap01";
+  });
+  // thinq
+  document.getElementById("recap").addEventListener("click", function() {
+    window.location.href = "/thinq_main";
+  });
+  // 뒤로가기
+  document.getElementById("back-button").addEventListener("click", function() {
+    window.location.href = "/counselreview01";  // otalk_main.html로 이동
+  });
+</script>
+</body>
+</html>
