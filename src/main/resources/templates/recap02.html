@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/otalk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <title>복습하기 2페이지</title>
+</head>
+<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+    <div class="top">
+        <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+        <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
+    </div>
+
+    <div class="container" style="width: 340px; flex-direction: column;">
+        <div class="container notice-block" style="flex-direction:column; margin-bottom:10px">
+            <div class="goal-box goal-text" style="margin-top: 5px;width: 160px; height: 60px;">
+                학습목표
+            </div>
+            <div class="text-notice" style="color: black; margin-bottom: 10px; font-weight: 600; text-align: center;">
+                <span>- 각 단계의 문제를 <br/></span>
+                <span>1분 안에 해결해보세요!</span>
+            </div>
+            <div class="text-notice" style="color: black; margin-bottom: 10px; font-weight: 600; text-align: center;">
+                <span>- 문제가 어려워 진행이 어렵다면 <br/></span>
+                <span>화면 우측 상단의 힌트 알림을<br/>확인해 도움을 받아보세요.</span>
+            </div>
+            <div class="text-notice" style="color: black; margin-bottom : 10px; font-weight: 600; text-align: center;">
+                - 끝까지 포기하지 말고 힘내세요!
+            </div>
+
+        </div>
+         
+        <div id='recap-start-button' class="main-button-horizon text-button">
+            복습 시작하기
+        </div>
+    </div>
+    <script>
+        // 복습시작
+        document.getElementById("recap-start-button").addEventListener("click", function() {
+            window.location.href = "/recap03";
+        });
+
+        // 뒤로가기
+        document.getElementById("back-button").addEventListener("click", function() {
+            window.location.href = "/recap01";
+        });
+    </script>
+
+</body>
+</html>

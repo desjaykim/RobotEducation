@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/otalk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>바로상담 5페이지</title>
+</head>
+<body style="background-image : url('/images/counsel-5page.svg'); background-repeat: no-repeat;">
+
+<div class="top">
+    <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+    <p class="text-title" style="padding-left: 10px">로봇청소기</p>
+</div>
+
+<img id="edit-button" src="/images/edit-button.svg" style="left: 294px; top: 100px; width: 36px; height: 36px; position: absolute;">
+
+<script>
+    // 학습시작
+    document.getElementById("edit-button").addEventListener("click", function() {
+        window.location.href = "/counsel07";
+    });
+
+    // 뒤로가기
+    document.getElementById("back-button").addEventListener("click", function() {
+        window.location.href = "/thinq_main";
+    });
+</script>
+</body>
+</html>
+ 

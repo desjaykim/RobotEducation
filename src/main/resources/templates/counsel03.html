@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/otalk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>바로상담 3페이지</title>
+</head>
+<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+
+<div class="top">
+    <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+    <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
+</div>
+<div class="container" style="width: 340px; flex-direction: column;">
+
+    <div id="call-face" style="width: 340px; height: 460px; position: relative; border-radius: 15px; background-color: #7D7D7D">
+    </div>
+    <div class="banner text-notice" style="justify-content: center; font-size:13pt; font-weight:500; margin-bottom:5px; background-color:white; color:black; width:340px; height: 45px; border-radius: 8px;">
+        오똑이 상담원<b id="counseler" style="margin-left:7px">김지은</b>님과 상담 중입니다.
+    </div>
+    <div id="call-quit-button" class="main-button text-button" style="width: 150px; height:70px; border-radius: 999px; background: #D04A4A; margin: 20px;">
+        상담 종료
+    </div>
+</div>
+<script>
+    // 상담 종료 버튼 클릭 시 otalk_main.html로 이동
+    document.getElementById("call-quit-button").addEventListener("click", function() {
+        window.location.href = "/otalk_main";  // otalk_main.html로 이동
+    });
+
+    // 뒤로가기
+    document.getElementById("back-button").addEventListener("click", function() {
+        window.location.href = "/otalk_main";  // otalk_main.html로 이동
+    });
+
+    // 3초 후 thinq_main.html로 자동 이동
+    setTimeout(function() {
+        window.location.href = "/thinq_main";
+    }, 3000);  // 3000 밀리초 = 3초
+</script>
+</body>
+</html>
+ 

@@ -1,0 +1,145 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    align-items: top;
+}
+
+
+.top {
+    width: 360px; height: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+} 
+
+.text-top {
+    font-size: 18pt;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+}
+
+.top-card-container {
+    width: 350px; height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.text-top-card {
+    margin: 0;
+    color: white;
+    font-size: 13pt;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    
+}
+
+.text-top-card-small {
+    margin: 0;
+    color: #A6ABB1;
+    font-size: 10pt;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px;
+    box-sizing: border-box;
+    width: 124px;
+    height: 55px;
+    border-radius: 14px;
+    flex: 0 0 auto;
+    margin : 4px
+}
+
+.text-title {
+    color: black; 
+    font-size: 18pt; 
+    font-family: "Nanum Gothic", sans-serif; 
+    font-weight: 800;
+    padding: 10px 20px 10px 20px;
+}
+
+.middle-card-container {
+    width: 350px;
+    height: 70px;
+    padding: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.img-text-container{
+    display:flex;
+    padding:10px;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 124px;
+    height: 42px;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    margin :4px;
+}
+
+.middle-card-img{ 
+    margin-right: 8px;
+}
+
+
+.product-container{
+    width: 340px;
+    position: relative;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.text-product-name {
+    margin: 0;
+    color: white;
+    font-size: 11pt;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    margin-left:15px;
+    
+}
+
+.text-status {
+    margin: 0;
+    color: #A6ABB1;
+    font-size: 9pt;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    margin-left:15px;
+}
+
+.product-box{
+    width: 155px;
+    height: 90px;
+    background: white;
+    border-radius: 12px;
+    margin: 5px;
+    flex: 0 0 auto;
+}
+
+.product-img{
+    display:flex; 
+    align-items: bottom; 
+    height: 40px; 
+    padding: 5px 0px 3px 20px
+}

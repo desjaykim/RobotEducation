@@ -1,0 +1,315 @@
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-button {
+    background: #314088;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 150px;
+}
+
+.main-button-horizon {
+    background: #314088;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 316px;
+    height: 100px;
+}
+
+.sub-button {
+    background: #4289c8;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.banner {
+    background: white;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    display:flex; 
+    justify-content: left; 
+    align-items: center;
+
+}
+.border-box {
+    margin:11px;
+    width: 303px;
+    height: 674px;
+    border-radius: 16px;
+    border: 9px #23778E solid;
+}
+.product-name {
+    background: white;
+    border-radius: 11px;
+    box-sizing: border-box;
+    padding: 2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+
+.main-image {
+    border-radius: 17px;
+}
+
+
+.notice-block{
+    color:white;
+    width: 340px;
+    height: 400px;
+
+}
+
+/* Text styles */
+.text-button {
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 15pt
+}
+
+.text-notice {
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.text-instruction {
+    text-align: center;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 18pt;
+    font-weight : 800;
+    padding: 5px;
+}
+
+.text-title {
+    font-size: 13pt;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+}
+
+.text-instruction {
+    font-size: 13pt;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.text-product {
+    text-align: center;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.top {
+    width: 90%;
+    height: 10%;
+    position: relative;
+    padding: 5px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}    
+
+.main-text{
+   text-align: center;
+   color: #111111;
+   font-size: 18pt;
+   font-family: "Nanum Gothic", sans-serif;;
+   font-weight: 400;
+}
+
+.header {
+    text-align: center;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+
+.main-box {
+    background: #A1CAD5;
+    border-radius: 14px;
+}
+
+.goal-box {
+    background: #23778E;
+    border-radius: 30px;
+}
+
+.goal-text {
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 18pt;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+.title-box {
+    background: #23778E;
+    border-radius: 14px;
+    padding:8px;
+}
+
+.problem-text span,
+.hint-text span,
+.encouragement {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+
+}
+
+.start-button-box {
+    position: relative;
+}
+
+.start-button-background {
+    width: 316px;
+    height: 124.48px;
+    background: #314088;
+    border-radius: 14px;
+    position: absolute;
+}
+
+.start-button-text {
+    width: 269px;
+    height: 66px;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    word-wrap: break-word;
+    position: absolute;
+}
+
+
+.header {
+    text-align: center;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.line {
+    transform-origin: 0 0;
+    border: 2px #111111 solid;
+}
+
+.card {
+    width:150px;
+    height:170px;
+    background: #23778E;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.card-footer {
+    width: 150px;
+    height: 53.30px;
+    background: #F6F6F6;
+    border-radius: 14px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card-title {
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 18pt;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.card-date {
+    text-align: center;
+    align-content: center;
+    color: #767676;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.footer-text {
+    color: black;
+    font-size: 20pt;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.scrollbar-track {
+    width: 7px;
+    height: 681px;
+    background: #BEBEBE;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.scrollbar-thumb {
+    width: 7px;
+    height: 85px;
+    background: #727272;
+    border-radius: 20px;
+}
+
+.border-box {
+    width: 303px;
+    height: 674px;
+    border-radius: 16px;
+    border: 8px #23778E solid;
+}
+
+
+.subtitle {
+    color: #111111;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.hint-text {
+    text-align: center;
+    color: #111111;
+    font-size: 16pt;
+    font-weight: 700;
+}

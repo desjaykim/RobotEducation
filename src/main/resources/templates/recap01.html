@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복습화면 1페이지</title>
+    <link rel="stylesheet" href="/style/recap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+<div style="width: 100%; height: 100%; position: relative;">
+
+    <div class="top">
+        <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+        <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
+    </div>
+
+    <div class="footer-text" style="width:340px; margin-left:10px; margin-bottom:30px;">
+        복습하기
+    </div>
+
+    <div class="container" style="width:340px; margin-bottom:15px">
+        <div class="container" style="width:360px; flex-direction: column;">
+            <div class="card card-title" style="left: 50px;">
+                청소<br/>예약하기
+            </div>
+            <div class="card-footer card-date">
+                24.09.05
+            </div>
+        </div>
+
+        <div class="container" style="width:360px; flex-direction: column;">
+            <div class="card card-title" style="left: 50px;">
+                맵핑하기
+            </div>
+            <div class="card-footer card-date">
+                24.09.02
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="width:340px">
+        <div class="container" style="width:360px; flex-direction: column;">
+            <div class="card card-title" style="left: 50px;">
+                저소음 모드<br/>설정하기
+            </div>
+            <div class="card-footer card-date">
+                24.07.23
+            </div>
+        </div>
+
+        <div id="prohibit" class="container" style="width:360px; flex-direction: column;">
+            <div class="card card-title" style="left: 50px;">
+                금지 구역<br/>설정하기
+            </div>
+            <div class="card-footer card-date">
+                24.04.01
+            </div>
+        </div>
+    </div>
+    <script>
+        // 복습시작
+        document.getElementById("prohibit").addEventListener("click", function() {
+            window.location.href = "/recap02";
+        });
+
+        // 뒤로가기
+        document.getElementById("back-button").addEventListener("click", function() {
+            window.location.href = "/otalk_main";
+        });
+    </script>
+</div>
+</body>
+</html>

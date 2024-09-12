@@ -1,0 +1,161 @@
+.container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-button {
+    background: #314088;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 150px;
+}
+
+.main-button-horizon {
+    background: #314088;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 316px;
+    height: 100px;
+}
+
+.sub-button {
+    background: #4289c8;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.banner {
+    background: white;
+    border-radius: 14px;
+    box-sizing: border-box;
+    padding: 5px;
+    display:flex; 
+    justify-content: left; 
+    align-items: center;
+
+}
+
+.product-name {
+    background: white;
+    border-radius: 11px;
+    box-sizing: border-box;
+    padding: 2px;
+    display:flex;
+    justify-content:
+    center;
+    align-items: center;
+
+}
+
+.main-image {
+    border-radius: 17px;
+}
+
+/* Text styles */
+.text-button {
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+    font-size: 15pt
+}
+
+.text-notice {
+    color: white;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.text-instruction {
+    text-align: center;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 18pt;
+    font-weight : 800;
+    padding: 5px;
+}
+
+.text-title {
+    font-size: 13pt;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
+}
+
+.text-instruction {
+    font-size: 13pt;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.text-product {
+    text-align: center;
+    color: #111111;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.top {
+    width: 360px;
+    height: 50px;
+    margin-top:10px;
+    margin-left:5px;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}    
+
+.main-text{
+   text-align: center;
+   color: #111111;
+   font-size: 18pt;
+   font-family: "Nanum Gothic", sans-serif;;
+   font-weight: 400;
+}
+
+
+.goal-box {
+    background: #23778E;
+    border-radius: 30px;
+}
+
+.goal-text {
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 17pt;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.notice-block{
+    background-color: white;
+    width: 320px;
+    height: 380px;
+    padding: 20px;
+    box-sizing:border-box;
+    border-radius: 14px;
+}

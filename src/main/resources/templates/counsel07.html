@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/otalk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <title>바로상담 7페이지</title>
+</head>
+<body style="background-image : url('/images/counsel-6page.svg'); background-repeat: no-repeat;">
+
+<div class="top">
+    <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
+    <p class="text-title" style="padding-left: 10px">로봇청소기</p>
+</div>
+
+<div class="container" style="box-sizing: border-box; left:42px; top:330px; position: absolute; padding: 5px; box-sizing: border-box; padding: 10px; flex-direction:column; width: 278px; height: 149px; background: white; border-radius: 16px;">
+    <div style="width: 253px; color: black; line-height: 1.2; font-size: 12pt; font-weight: 600; margin-top:12px;">
+        앱에서 청소 금지 영역을 설정하면 리모컨이나 로봇청소기에서 직접 청소를 시작해도 설정한 영역은 청소하지 않아요.
+    </div>
+    <div style="background-color: white; width: 50px; text-align: center; align-content: center; color: #23778E; font-size: 14pt; font-weight: 600; border-radius: 20px; margin-bottom : 4px;">
+        확인
+    </div>
+</div>
+<script>
+    // 학습종료
+    document.getElementById("check-btn").addEventListener("click", function() {
+        window.location.href = "/";
+    });
+
+    // 뒤로가기
+    document.getElementById("back-button").addEventListener("click", function() {
+        window.location.href = "/counsel05";
+    });
+</script>
+</body>
+</html>
+ 
