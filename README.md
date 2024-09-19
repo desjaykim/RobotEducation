@@ -51,13 +51,6 @@ AWS에서 주관하는 INHA SW NET-Zero 해커톤에서 사용한 서버 코드�
     - 기존의 에너지효율 등급만으로는 동일한 등급 간의 비교가 어려웠고, 얼마만큼의 이득이 생기는지가 수치적으로 드러나지 않는다는 단점이 존재했다. 이러한 점을 개선하기 위해 자체 점수 제도를 도입하였다.
     - 또한 등급간의 비율도 가전기기의 종류마다 제각각이었기 때문에 인공지능을 활용해 공평하게 등급을 구분하였다.
       
-## ✒️ API
-- API 상세설명 : <https://velog.io/@gmlstjq123/INHA-SW-NET-Zero-%EA%B3%B5%EB%8F%99%ED%95%B4%EC%BB%A4%ED%86%A4-Server-%EC%BD%94%EB%93%9C#3-%ED%92%88%EB%AA%A9%EB%B3%84-%EB%9E%AD%ED%82%B9-%EC%A1%B0%ED%9A%8C>
-
-
-- API 명세서 : <https://makeus-challenge.notion.site/API-ecafb2a8fb8c427c9e78abf6120d674b>
-
-
 ## 프론트엔드 기술 구현 과정
 **1. DOM 조작과 이벤트 처리**
   - `DOMContentLoaded`: HTML 문서가 완전히 로드된 후 코드를 실행하며 페이지 초기화 작업을 수행
@@ -97,3 +90,9 @@ AWS에서 주관하는 INHA SW NET-Zero 해커톤에서 사용한 서버 코드�
 **8. 드래그 앤 드롭과 확대/축소**
   - 웹캠 스트림을 클릭하여 드래그로 위치를 변경할 수 있으며, 마우스 휠을 사용해 비디오 크기를 조절
   - 드래그 및 확대/축소 시 로컬 스토리지를 통해 상태를 저장하고 다른 페이지에서도 동일한 설정을 유지
+
+## ✒️ 백엔드 기술 구현 과정
+- API 상세설명 : <https://velog.io/@gmlstjq123/INHA-SW-NET-Zero-%EA%B3%B5%EB%8F%99%ED%95%B4%EC%BB%A4%ED%86%A4-Server-%EC%BD%94%EB%93%9C#3-%ED%92%88%EB%AA%A9%EB%B3%84-%EB%9E%AD%ED%82%B9-%EC%A1%B0%ED%9A%8C>
+
+
+- API 명세서 : <https://makeus-challenge.notion.site/API-ecafb2a8fb8c427c9e78abf6120d674b>
