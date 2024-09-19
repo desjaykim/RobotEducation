@@ -10,23 +10,36 @@
 
     <title>바로상담 3페이지</title>
 </head>
-<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
-
+<body style="overflow: hidden; background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+<script th:src="@{/js/sync.js}"></script>
 <div class="top">
     <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
     <p class="text-title" style="padding-left: 10px">로봇청소기 오똑이 모드</p>
 </div>
 <div class="container" style="width: 340px; flex-direction: column;">
+    <div id="call-face" style="width: 250px; height: 440px; position: relative; border-radius: 15px;">
+        <!-- 동영상 추가 -->
+        <video id="call-video" width="250" height="440" autoplay muted loop style="border-radius: 15px;">
+            <source src="/images/start.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-    <div id="call-face" style="width: 340px; height: 460px; position: relative; border-radius: 15px; background-color: #7D7D7D">
-    </div>
     <div class="banner text-notice" style="justify-content: center; font-size:13pt; font-weight:500; margin-bottom:5px; background-color:white; color:black; width:340px; height: 45px; border-radius: 8px;">
-        오똑이 상담원<b id="counseler" style="margin-left:7px">김지은</b>님과 상담 중입니다.
+        오똑이 상담원<b id="counseler" style="margin-left:7px">이가현</b>님과 상담 중입니다.
     </div>
-    <div id="call-quit-button" class="main-button text-button" style="width: 150px; height:70px; border-radius: 999px; background: #D04A4A; margin: 20px;">
-        상담 종료
+
+    <!-- 상담 종료 및 소리 켜기 버튼을 같은 컨테이너에 배치 -->
+    <div class="container" style="display: flex; justify-content: center; gap: 10px;">
+        <div id="call-quit-button" class="main-button text-button" style="width: 150px; height:70px; border-radius: 999px; background: #D04A4A; margin: 20px;">
+            상담 종료
+        </div>
+        <div id="unmute-button" class="main-button text-button" style="width: 150px; height:70px; border-radius: 999px; background: #4289c8; margin: 20px;">
+            소리 켜기
+        </div>
     </div>
 </div>
+
 <script>
     // 상담 종료 버튼 클릭 시 otalk_main.html로 이동
     document.getElementById("call-quit-button").addEventListener("click", function() {
@@ -38,11 +51,17 @@
         window.location.href = "/otalk_main";  // otalk_main.html로 이동
     });
 
-    // 3초 후 thinq_main.html로 자동 이동
+    // 13초 후 thinq_main_video.html로 자동 이동
     setTimeout(function() {
-        window.location.href = "/thinq_main";
-    }, 3000);  // 3000 밀리초 = 3초
+        window.location.href = "/thinq_main_video";
+    }, 14000);  // 13000 밀리초 = 13초
+
+    // 소리 켜기 버튼
+    document.getElementById("unmute-button").addEventListener("click", function() {
+        var video = document.getElementById("call-video");
+        video.muted = false;  // 소리 켜기
+        video.play();  // 재생
+    });
 </script>
 </body>
 </html>
- 

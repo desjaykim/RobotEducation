@@ -10,8 +10,8 @@
 
     <title>바로상담 5페이지</title>
 </head>
-<body style="background-image : url('/images/counsel-5page.svg'); background-repeat: no-repeat;">
-
+<body style="overflow: hidden; background-image : url('/images/counsel-5page.svg'); background-repeat: no-repeat;">
+<script th:src="@{/js/sync.js}"></script>
 <div class="top">
     <img id="back-button" style="padding-left: 10px" src="/images/arrow-left.svg" alt="왼쪽 화살표">
     <p class="text-title" style="padding-left: 10px">로봇청소기</p>
@@ -22,7 +22,7 @@
 <script>
     // 학습시작
     document.getElementById("edit-button").addEventListener("click", function() {
-        window.location.href = "/counsel07";
+        window.location.href = "/counsel07_video";
     });
 
     // 뒤로가기

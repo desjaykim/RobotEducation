@@ -10,7 +10,7 @@
 
     <title>Document</title>
 </head>
-<body style="background-image : url('/images/bg.png'); background-repeat: no-repeat;">
+<body style="overflow: hidden; background-image : url('/images/bg.png'); background-repeat: no-repeat;">
 <div class="top text-top">
     <p>우리집 <img src="/images/arrow_down.svg" alt="아래화살표" style="width: 18px;"></p>
     <div>
@@ -19,7 +19,7 @@
         <img src="/images/notification_bell.svg" style="width:20px; height: 20px;" alt="알림"/>
     </div>
 </div>
-
+<script th:src="@{/js/sync.js}"></script>
 <div class="top-card-container">
     <div id="ohtalk" class="text-container" style="background: #DB0000;">
         <p class="text-top-card">오똑이</p>
