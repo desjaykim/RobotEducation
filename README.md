@@ -28,13 +28,12 @@ AI 가전 사용이 어려운 부모님 세대가 스스로 사용하실 수 있
 - **Version** :  Java 17
 - **IDE** : IntelliJ, VS Code
 - **Framework** :  SpringBoot 2.7.11
-- **ORM** : MongoDB
+- **ODM** : MongoDB
 
 ## 🖥️ 기술 스택
 - **Server** : Java Spring Boot, Swagger, JPA, REST API
 - **DataBase** : MongoDB
 - **WS/WAS** : Nginx
-- **OCR** : MS Teams, Notion
 - **Team meeting** : MS Teams, Notion, Figma
 
 ## 🪧 ER Diagram
@@ -46,9 +45,6 @@ AI 가전 사용이 어려운 부모님 세대가 스스로 사용하실 수 있
 ## 📑 Prototype
 ![상담사 웹 페이지 프로토타입](https://github.com/user-attachments/assets/1736a1c5-33f7-4b5d-9351-78540c9e9425)
 ![고객 LG ThinQ '오똑이' 모드 앱 프로토타입](https://github.com/user-attachments/assets/6c2600d8-1f43-4727-9040-fd4000025bb6)
-
-## 📝 프로젝트 아키텍쳐
-![프로젝트 아키텍쳐](https://github.com/gmlstjq123/INHA_NET_ZERO_HACKATHON/blob/hello_there-12/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png)
 
 ## 📌 주요 기능
 - 오똑이 모드 (상담 교육 모드)
