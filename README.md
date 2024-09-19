@@ -92,7 +92,5 @@ AWS에서 주관하는 INHA SW NET-Zero 해커톤에서 사용한 서버 코드�
   - 드래그 및 확대/축소 시 로컬 스토리지를 통해 상태를 저장하고 다른 페이지에서도 동일한 설정을 유지
 
 ## ✒️ 백엔드 기술 구현 과정
-- API 상세설명 : <https://velog.io/@gmlstjq123/INHA-SW-NET-Zero-%EA%B3%B5%EB%8F%99%ED%95%B4%EC%BB%A4%ED%86%A4-Server-%EC%BD%94%EB%93%9C#3-%ED%92%88%EB%AA%A9%EB%B3%84-%EB%9E%AD%ED%82%B9-%EC%A1%B0%ED%9A%8C>
 
-
-- API 명세서 : <https://makeus-challenge.notion.site/API-ecafb2a8fb8c427c9e78abf6120d674b>
+- API 명세서 : <[https://makeus-challenge.notion.site/API-ecafb2a8fb8c427c9e78abf6120d674b](https://www.notion.so/API-056c653621d04892a6b3befcc28d33af)>
