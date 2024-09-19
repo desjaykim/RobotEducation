@@ -43,7 +43,8 @@ AI 가전 사용이 어려운 부모님 세대가 스스로 사용하실 수 있
 !['오똑이' flow-charts](https://github.com/user-attachments/assets/2247869c-38e4-48f0-92d4-a644af217e7e)
 
 ## 📑 Prototype
-![상담사 웹 페이지 프로토타입](https://github.com/user-attachments/assets/1736a1c5-33f7-4b5d-9351-78540c9e9425)
+![상담사 웹 페이지 프로토타입](https://github.com/user-attachments/assets/71174b31-750b-4e2a-a78c-6cc4a7eb8ad6)
+
 ![고객 LG ThinQ '오똑이' 모드 앱 프로토타입](https://github.com/user-attachments/assets/6c2600d8-1f43-4727-9040-fd4000025bb6)
 
 ## 📌 주요 기능
