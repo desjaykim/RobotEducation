@@ -1,37 +1,51 @@
-# INHA_NET_ZERO_HACKATHON
-AWS에서 주관하는 INHA SW NET-Zero 해커톤에서 사용한 서버 코드입니다. Spring Boot를 활용하여 "탄소중립실현" 모바일 애플리케이션의 프로토타입을 구현하였습니다.
-## 👨‍🏫 프로젝트 소개
-"저탄소 에너지 사용 점수를 통한 녹색소비 솔루션"을 주제로 한 안드로이드 애플리케이션입니다. 소비자들의 저탄소 소비를 독려하기 위해 에너지소비효율을 비교/분석하는 플랫폼을 제작해보았습니다. 
+# 🧐 LG DX School Cx project_Team 3 '원영'_LG ThinQ '오똑이' 서비스
+LG DX School 1기에서 2차 CX project 최종 결과물 LG ThinQ '오똑이' 서비스의 구현 코드입니다.
 
-## ⏲️ 개발 기간 
-- 2023.07.13(목) ~ 2023.07.15(토)
-- 탄소중립의 이해, DevOps 특강
-- 아이디어 노트 작성
-- 코딩테스트
-- 아이디어 발표
-- 해커톤
-- 발표평가
-  
-## 🧑‍🤝‍🧑 개발자 소개 
-- **변현섭** : 팀장, Server 개발자
-- **강민교** : 데이터 분석
-- **곽수연** : 데이터 분석
-- **양원철** : Android 개발자
-- **김가영** : UX UI Designer
-  
-![개발자 소개](https://github.com/gmlstjq123/INHA_NET_ZERO_HACKATHON/blob/hello_there-12/%EA%B0%9C%EB%B0%9C%EC%9E%90%20%EC%86%8C%EA%B0%9C.png)
+## 🤖 프로젝트 소개
+LG전자의 로봇청소기 시장 점유율 확대를 위해 부모님 세대를 대상으로 친절한 '오똑이' 상담사 서비스입니다.
 
-## 💻 개발환경
-- **Version** : Java 17
+AI 가전 사용이 어려운 부모님 세대가 스스로 사용하실 수 있도록 전문 '오똑이' 상담사가 로봇청소기의 기능 및 LG ThinQ 조작 과정을 교육하고 돕습니다.
+
+## ⏰ 개발 기간 
+- 2024.07.24(수) ~ 2024.09.13(금)
+- BX 주제 선정
+- BX 기획 및 ppt 제작
+- BX ~ CX 기획
+- 데이터 수집, 분석
+- LG 현직자 1,2차 멘토링
+- LG 현직자 대상 CX 중간발표
+- 서비스 고도화 및 Web App 구현
+- CX 최종발표 및 전문 심사위원 평가
+  
+## 👨‍💻👩‍💻 개발자 소개 
+- **이성찬** : 팀장, 
+- **신찬희** : 
+- **이가현** : 
+- **정다진** : 
+- **김정섭** : UX/UI Designer
+
+## 🔨 개발환경
+- **Version** :  Java 17
 - **IDE** : IntelliJ, VS Code
-- **Framework** : SpringBoot 2.7.11
-- **ODM** : MongoDB
+- **Framework** :  SpringBoot 2.7.11
+- **ORM** : MongoDB
 
-## ⚙️ 기술 스택
+## 🖥️ 기술 스택
 - **Server** : AWS EC2
-- **DataBase** : AWS RDS, Datagrip, JPQL, ERD AqueryTool
+- **DataBase** :  AWS RDS, Datagrip, JPQL, ERD AqueryTool
 - **WS/WAS** : Nginx, Tomcat
-- **아이디어 회의** : MS Teams, Notion
+- **OCR** : MS Teams, Notion
+- **Team meeting** : MS Teams, Notion, Figma
+
+## 🪧 ER Diagram
+![dbdiagram.io](https://github.com/user-attachments/assets/d2d352e8-2bec-41a6-9078-63d6aec294e8)
+
+## 📚 Service flow-charts
+!['오똑이' flow-charts](https://github.com/user-attachments/assets/2247869c-38e4-48f0-92d4-a644af217e7e)
+
+## 📑 Prototype
+![상담사 웹 페이지 프로토타입](https://github.com/user-attachments/assets/1736a1c5-33f7-4b5d-9351-78540c9e9425)
+![고객 LG ThinQ '오똑이' 모드 앱 프로토타입](https://github.com/user-attachments/assets/6c2600d8-1f43-4727-9040-fd4000025bb6)
 
 ## 📝 프로젝트 아키텍쳐
 ![프로젝트 아키텍쳐](https://github.com/gmlstjq123/INHA_NET_ZERO_HACKATHON/blob/hello_there-12/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png)
@@ -95,3 +109,4 @@ AWS에서 주관하는 INHA SW NET-Zero 해커톤에서 사용한 서버 코드�
 
 
 - API 명세서 : <https://makeus-challenge.notion.site/API-ecafb2a8fb8c427c9e78abf6120d674b>
+
