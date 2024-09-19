@@ -33,7 +33,7 @@ AI 가전 사용이 어려운 부모님 세대가 스스로 사용하실 수 있
 ## 🖥️ 기술 스택
 - **Server** : Java Spring Boot, Swagger, JPA, REST API
 - **DataBase** : MongoDB
-- **WS/WAS** : Tomcat
+- **WS/WAS** : Nginx
 - **OCR** : MS Teams, Notion
 - **Team meeting** : MS Teams, Notion, Figma
 
